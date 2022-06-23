@@ -9,9 +9,7 @@ public class Solution{
         for(int i: arr)
         {
             if(mp.containsKey(i))
-            {
-                mp.put(i, mp.get(i)+1);
-            }
+             mp.put(i, mp.get(i)+1);
             else
                 mp.put(i, 1);
         }
